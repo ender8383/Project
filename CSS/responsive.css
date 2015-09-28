@@ -40,11 +40,21 @@
     float: left;
     margin: 0 5% 80px 0;
   }
-      
-  
+   
+
+
 }
 
-
+@media screen and (max-width: 660px) {
+	
+nav {
+	border-top: 5px solid #2e2e2e;
+	border-bottom: 5px solid #2e2e2e;
+	
+}
+	
+	
+}
 
 
 @media screen and (min-width: 660px) {
@@ -98,4 +108,11 @@
   margin: 0 5px;
   float: bottom;  
 }
+
+
+  
+
+
 }
+
+
