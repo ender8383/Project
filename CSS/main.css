@@ -26,7 +26,6 @@ body {
 #parseButton:hover {opacity: 0.6; }
 
 
-
 a {
   text-decoration: none;  
 }
@@ -37,6 +36,13 @@ img {
 
 h3 {
   margin: 0 0 1em 0;
+}
+
+
+.parsed {
+    border-image: url(../img/tablet.png) 10% round;
+    border-width: 20px;
+	
 }
 
 
@@ -53,8 +59,7 @@ header {
 
 
 #logo {
-  max-width: 300px;
-  	
+  max-width: 300px;  	
   text-align: center;
   margin: 0;
 }
@@ -82,7 +87,8 @@ NAVIGATION
 nav {
   text-align: center;
   padding: 10px 0;
-  margin: 20px 0 0;
+  /*margin: 20px 0 0;*/
+  margin: 65px auto;
 }
 
 nav ul {
@@ -219,14 +225,11 @@ header {
   border-color: #2e2e2e;
 }
 
-.textbox {
+.source {
 	border-color:#2e2e2e;
+	box-shadow: 10px 10px 5px #333;	
 }
 
-#parseButton {	
-	background-color:#fff;
-	color: #2e2e2e	
-}
 
 /* nav background for mobile */
 nav {

@@ -8,6 +8,8 @@
     <link rel="stylesheet" href="css/main.css">
     <link rel="stylesheet" href="css/responsive.css">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<script src="https://code.jquery.com/jquery-2.1.4.min.js"></script>
+	<script src="parse.js"></script> 
   </head>
   <body>
     <header>
@@ -29,7 +31,7 @@
         <section class="textbox">
 		
 			<form action="http://www.html.am/html-codes/textboxes/submitted.cfm">
-				<textarea name="textBox" cols="75" rows="15" style="border:3px solid #2e2e2e; float: left; margin:auto; max-width:43%; clear: both;">
+				<textarea class="source" name="textBox" cols="75" rows="15" style="border:3px solid #2e2e2e; float: left; margin:auto; width: 43%; clear: both;">
 Enter some code...
 				</textarea>
 <!-- 			<br />
@@ -38,22 +40,24 @@ Enter some code...
 
         </section>	
 		
+		
+		
 	    <section class="textbox2">
 	  		<form action="http://www.html.am/html-codes/textboxes/submitted.cfm">
-				<textarea name="textBox2" cols="75" rows="15" style="background-color:#fff;color:#2e2e2e; max-width:43%; border:3px solid #2e2e2e; float:right; margin: auto; clear: right;">
-Here is your code eventually..
-				</textarea>			
+				<div class="parsed" style="background-color:#fff;color:#2e2e2e; overflow:scroll; width:43%; height:275px; float:right; margin: auto; clear: right;">
+Your code prevew apears here.
+				</div>			
 			</form>
 
 	  
-	    </section>
+<!-- 	    </section>
 	    <br>
 	 
 	    <section class="parse">
 		
 		<button id="parseButton" onclick="JavaScript:alert('Sorry, This App is not yet functional.')">PARSE</button>
 
-	    </section>	  
+	    </section>	   -->
 	
       <footer> 
 	  

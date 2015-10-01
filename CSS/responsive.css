@@ -45,6 +45,14 @@
 
 }
 
+@media screen and (max-width: 580px) {
+
+.source {width: 100% !important; max-width:100% !important; box-sizing: border-box;}
+.parsed {width: 100% !important; max-width: 100% !important; box-sizing: border-box; margin-top: 20px !important;}
+}
+
+
+
 @media screen and (max-width: 660px) {
 	
 nav {
