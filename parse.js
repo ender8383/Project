@@ -1,8 +1,9 @@
 $(document).ready(function(){
 	
 	$(".source").keyup(function(){
-		
-		$(".parsed").html($(".source").val());	
+		var parsed = $(".parsed");
+		parsed.contents().find("html").html($(".source").val());	
 	});
 	
 });
+
