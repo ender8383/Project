@@ -9,7 +9,9 @@
     <link rel="stylesheet" href="css/responsive.css">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<script src="https://code.jquery.com/jquery-2.1.4.min.js"></script>
+	<script src="app.js"></script> 
 	<script src="parse.js"></script> 
+	
   </head>
   <body>
     <header>
@@ -21,7 +23,7 @@
       <nav>
         <ul>
           <li><a href="index.html" class="selected">Home</a></li>
-          <li><a href="PDF/My Resumé.pdf">Résumé</a></li>
+          <li><a href="PDF/My Resumé.pdf" id="resume">Résumé</a></li>
           <!-- <li><a href="http://www.codelouisville.org/">Code Louisville</a></li> -->
          </ul>
       </nav>
@@ -30,12 +32,9 @@
 
         <section class="textbox">
 		
-			<form action="http://www.html.am/html-codes/textboxes/submitted.cfm">
-				<textarea class="source" name="textBox" cols="75" rows="15" style="border:3px solid #2e2e2e; float: left; margin:auto; width: 43%; clear: both;">
-Enter some code...
-				</textarea>
-<!-- 			<br />
-				<input type="submit" /> -->
+			<form>
+				<textarea class="source" placeholder="Enter some code..." name="textBox" cols="75" rows="15" style="border:3px solid #2e2e2e; height: 294px; float: left; margin:auto; width: 43%; clear: both;"></textarea>
+
 			</form>		
 
         </section>	
@@ -43,21 +42,15 @@ Enter some code...
 		
 		
 	    <section class="textbox2">
-	  		<form action="http://www.html.am/html-codes/textboxes/submitted.cfm">
+	  		<form>
 				<iframe id="parsed" name="parsed" class="parsed" style="background-color:#fff;color:#2e2e2e; overflow:scroll; width:43%; height:275px; float:right; margin: auto; clear: right;">
-Your code prevew apears here.
+
 				</iframe>			
 			</form>
 
 	  
-<!-- 	    </section>
-	    <br>
-	 
-	    <section class="parse">
-		
-		<button id="parseButton" onclick="JavaScript:alert('Sorry, This App is not yet functional.')">PARSE</button>
-
-	    </section>	   -->
+	    </section>
+	  
 	
       <footer> 
 	  

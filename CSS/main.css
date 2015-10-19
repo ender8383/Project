@@ -16,6 +16,8 @@ body {
 	margin: auto;
 }
 
+
+
 .parse {	
 	margin: auto;	
 	float:none;
@@ -40,10 +42,37 @@ h3 {
 
 
 .parsed {
-    border-image: url(../img/tablet.png) 10% round;
+    border-image: url(../img/tablet.png) 13% round;
     border-width: 20px;
 	
 }
+
+
+/************************
+LIGHTBOX
+*************************/
+
+#overlay {
+	
+	background: rgba(0,0,0,0.7);
+	width:100%;
+	height: 100%;	
+	top:0;
+	left:0;
+	bottom:0;
+	right:0;
+	display: none;		
+	position: absolute;	
+}
+
+#pdf {
+	margin-left: 20%;	
+	margin-top: 6%;
+	margin-bottom: 10%;
+	clear: both;
+}
+
+
 
 
 /************************
@@ -134,7 +163,6 @@ footer {
   margin: 0 5px;
   float: bottom;  
 }
-
 
 
 /************************
