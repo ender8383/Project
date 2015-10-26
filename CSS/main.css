@@ -16,7 +16,9 @@ body {
 	margin: auto;
 }
 
-
+.source:focus {	
+	outline: none;
+}
 
 .parse {	
 	margin: auto;	
@@ -24,6 +26,7 @@ body {
 	clear:both;
 	padding-top: 10%;
 	max-width: 50px;
+		
 }
 #parseButton:hover {opacity: 0.6; }
 
@@ -243,40 +246,45 @@ COLORS
 
 /* site body */
 body {
-  background-color: #888888;
+  background-color: #7E7874;
   color: #999;
 }
 
 /* grey header */
 header {
-  background:#eaeaee;
-  border-color: #2e2e2e;
+  background:#C3BBB7;
+  border-color: #BC6938;
 }
 
 .source {
-	border-color:#2e2e2e;
+	border-color:#BC6938;
 	box-shadow: 10px 10px 5px #333;	
 }
 
 
 /* nav background for mobile */
 nav {
-  background:#888888;
+  background:#7E7874;
 }
 
 /* logo text */
 h1, h2 {
-  color: #2e2e2e;
+  color: #000;
 }
 
 /* links */
 a {
-  color: #2e2e2e;
+  color: #BC6938;
 }
 
 /* nav link */
 nav a, nav a:visited {
-  color: #2e2e2e;
+  color: #BC6938;
+}
+
+#copywright {
+	color: #fff;
+	font-size: 0.95em;
 }
 
 /* selected nav link */

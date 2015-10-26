@@ -53,13 +53,15 @@
 
 
 
-@media screen and (max-width: 660px) {
+@media screen and (max-width: 659px) {
 	
 nav {
-	border-top: 5px solid #2e2e2e;
-	border-bottom: 5px solid #2e2e2e;
-	
+	border-top: 5px solid #BC6938;
+	border-bottom: 5px solid #BC6938;
+	font-size: 150%;
+	margin: 25px auto;
 }
+
 	
 	
 }
@@ -100,7 +102,7 @@ nav {
   }
   
   header {
-    border-bottom: 5px solid #2e2e2e;
+    border-bottom: 5px solid #BC6938;
     margin-bottom: 60px;
   }
   
