@@ -17,17 +17,21 @@ body {
 }
 
 .source:focus {	
-	outline: none;
+	outline-color: #eb5e0a;
 }
 
-.parse {	
-	margin: auto;	
-	float:none;
-	clear:both;
-	padding-top: 10%;
-	max-width: 50px;
-		
+#example {
+	float: right;
+	max-width: 30%;
+	margin: 20px 0;
 }
+#exampleHolder {
+	width: 110% !important;
+	margin: auto 0;
+	float: right;
+	margin-right: 7%;
+}
+
 #parseButton:hover {opacity: 0.6; }
 
 
@@ -65,7 +69,7 @@ LIGHTBOX
 	bottom:0;
 	right:0;
 	display: none;		
-	position: absolute;	
+	position: fixed;	
 }
 
 #pdf {
@@ -284,7 +288,8 @@ nav a, nav a:visited {
 
 #copywright {
 	color: #fff;
-	font-size: 0.95em;
+	font-size: 1.2em;
+	font-family: font-family: "Times New Roman", Times, serif !important;
 }
 
 /* selected nav link */
