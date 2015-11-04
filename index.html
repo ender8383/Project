@@ -1,13 +1,17 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
   <head>
     <meta charset="utf-8">
     <title>EcCode | Code Parsing Tool</title>
+	<link rel="stylesheet" href="https://ajax.googleapis.com/ajax/libs/jqueryui/1.11.4/themes/smoothness/jquery-ui.css">
     <link rel="stylesheet" href="css/minify.css">
     <link href='http://fonts.googleapis.com/css?family=Lobster|Shadows+Into+Light' rel='stylesheet' type='text/css'>
 
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-	
+	<meta name="description=" content="EcCode HTML Code parsing tool offers a quick and easy method of parsing HTML code in real time and offers the user a prevew of the parsed code."/>
+    <meta property="og:image" content="http://i101.photobucket.com/albums/m42/Ender-SaK-/Eccode-logo-thumb_1.png"/>
+    <meta property="og:description" content="EcCode HTML Code parsing tool offers a quick and easy method of parsing HTML code in real time and offers the user a prevew of the parsed code."/>
+	 
 	
   </head>
   <body>
@@ -30,17 +34,17 @@
         <section class="textbox">
 		
 			<form>
-				<textarea class="source" placeholder="Enter some HTML code..." name="textBox" cols="75" rows="15" style="border:3px solid #BC6938; height: 294px; float: left; margin:auto; width: 43%; clear: both;"></textarea>
+				<textarea class="source" placeholder="Enter or paste HTML code here then press any key or click." name="textBox" cols="75" rows="15" style="border:3px solid #BC6938; height: 294px; float: left; margin:auto; width: 43%; clear: both;"></textarea>
 
 			</form>		
 
         </section>	
 		
 		
-		
+		<!-- <h2 class="fullscreenHint" style="color:rgba(9,9,9,0.5);"> Click the border for full screen </h2> -->
 	    <section class="textbox2">
 	  		<form>
-				<iframe id="parsed" name="parsed" class="parsed" style="background-color:#fff;color:#2e2e2e; overflow:scroll; width:43%; height:275px; float:right; margin: auto; clear: right;">
+				<iframe  id="parsed" name="parsed" class="parsed" style="background-color:#000;color:#2e2e2e; overflow:scroll; width:43%; height:275px; float:right; margin: auto; clear: right;">
 
 				</iframe>			
 			</form>
@@ -54,13 +58,15 @@
 	
       <footer> 
 	  
-        <a href="http://teamtreehouse.com/williamashabraner"><img src="img/treehouse-logo.png" alt="Treehouse Logo"  class="social-icon" title="Visit my Treehouse profile!"> </a>
+        <a href="http://teamtreehouse.com/michaelashabraner"><img src="img/treehouse-logo.png" alt="Treehouse Logo"  class="social-icon" title="Visit my Treehouse profile!"> </a>
         <a href="http://www.codelouisville.org/"><img src="img/codelouisville-logo.png" alt="Code Louisville Logo" class="social-icon2" title="Hire web developers in the Louisville area!"> </a><br>
         <p id="copywright">&copy; 2015 All Rights Reserved.</p>
 		
       </footer>
      </div>
+	
 	<script src="https://code.jquery.com/jquery-2.1.4.min.js"></script>
+	<script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.11.4/jquery-ui.min.js"></script>
 	<script src="app.js"></script> 
 	<script src="parse.js"></script> 
   </body>

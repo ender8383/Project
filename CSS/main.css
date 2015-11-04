@@ -74,7 +74,7 @@ LIGHTBOX
 
 #pdf {
 	margin-left: 20%;	
-	margin-top: 6%;
+	margin-top: 0;
 	margin-bottom: 10%;
 	clear: both;
 }
@@ -289,7 +289,7 @@ nav a, nav a:visited {
 #copywright {
 	color: #fff;
 	font-size: 1.2em;
-	font-family: font-family: "Times New Roman", Times, serif !important;
+	font-family: "Times New Roman", Times, serif !important;
 }
 
 /* selected nav link */
