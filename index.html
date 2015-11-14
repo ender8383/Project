@@ -4,7 +4,10 @@
     <meta charset="utf-8">
     <title>EcCode | Code Parsing Tool</title>
 	<link rel="stylesheet" href="https://ajax.googleapis.com/ajax/libs/jqueryui/1.11.4/themes/smoothness/jquery-ui.css">
-    <link rel="stylesheet" href="css/minify.css">
+    <!-- <link rel="stylesheet" href="css/minify.css"> -->
+	<link rel="stylesheet" href="css/main.css">
+	<link rel="stylesheet" href="css/responsive.css">
+	<link rel="stylesheet" href="css/normalize.css">
     <link href='http://fonts.googleapis.com/css?family=Lobster|Shadows+Into+Light' rel='stylesheet' type='text/css'>
 
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -42,23 +45,28 @@
         <ul>
           <li><a href="index.html" class="selected">Home</a></li>
           <li><a href="PDF/My Resumé.pdf" id="resume">Résumé</a></li>
-          <!-- <li><a href="http://www.codelouisville.org/">Code Louisville</a></li> -->
+          
          </ul>
       </nav>
     </header>
+	
     <div id="wrapper">	
+	
+		
+			
+		
 
         <section class="textbox">
 		
-			<form>
+			
 				<textarea class="source" placeholder="Enter or paste HTML code here then press any key or click." name="textBox" cols="75" rows="15" style="border:3px solid #BC6938; height: 294px; float: left; margin:auto; width: 43%; clear: both;"></textarea>
 
-			</form>		
+					
 
         </section>	
 		
+		<p class="fullscreenHint"> Click the border for full screen </p>
 		
-		<!-- <h2 class="fullscreenHint" style="color:rgba(9,9,9,0.5);"> Click the border for full screen </h2> -->
 	    <section class="textbox2">
 	  		<form>
 				<iframe  id="parsed" name="parsed" class="parsed" style="background-color:#000;color:#2e2e2e; overflow:scroll; width:43%; height:275px; float:right; margin: auto; clear: right;">
